@@ -12,6 +12,7 @@ namespace BookSwaping.Models
         // 1 = Canceled
         // 2 = successfull
         // 3 = error
+        
         public int StatusCode { get; set; }
     }
 }

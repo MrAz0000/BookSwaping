@@ -8,6 +8,8 @@
         public string Email { get; set; } = string.Empty;
         public int Balance { get; set; }
 
+        public ICollection<int>? BookID { get; set; }
         public ICollection<Book> ?books { get; set; }
+
     }
 }
